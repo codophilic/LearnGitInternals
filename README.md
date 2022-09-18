@@ -1,4 +1,4 @@
 # LearnGitInternals
 
-# Git Visualization
+## Git Visualization
 http://git-school.github.io/visualizing-git/#free

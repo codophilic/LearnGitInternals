@@ -1,10 +1,11 @@
 If we run command `git init Internals` , so this creates an `.git` hidden folder under a folder name as `Internals`. 
 
-Run command `ls -lah` to get the list of files/folder having detailed information. (image 1)
+Run command `ls -lah` to get the list of files/folder having detailed information.
+![](https://github.com/codophilic/LearnGitInternals/blob/main/Git-Internal-Images/1.JPG)
 
 There is no network level operation takes place when we perform any git operations. All operations takes place on local machine under `.git` directory.
 
-So first we created a folder **Internals** which has **0 commits** and has only `.git` directory.
+So first we created a folder **Internals** which has **0 commits** and has only *.git* directory.
 
 ### Getting Visualization of **Internals**`.git` directory (image 2)
 

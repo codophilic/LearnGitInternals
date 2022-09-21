@@ -76,7 +76,7 @@ So inside the tree there are list of items which are permission of a file, refer
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Git-Internal-Images/Images/10.PNG)
 
-11. :shipit: **File name is not present in BLOB and it is present in TREE?**​ 😕​❓​
+11. **File name is not present in BLOB and it is present in TREE?**  :shipit:​ 😕​❓​
 
 - Suppose there are multiple files having same contents, git will reference the same BLOB if there are multiple tree for those files! or you rename your file? git will create a new tree for you instead creating a new BLOB.
 

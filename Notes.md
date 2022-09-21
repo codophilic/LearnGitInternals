@@ -156,7 +156,7 @@ So inside the tree there are list of items which are permission of a file, refer
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Git-Internal-Images/Images/24.PNG)
 
 
-![Learn more about git internals](https://medium.com/mindorks/what-is-git-object-model-6009c271ca66#:~:text=Git%20Object%20Store%201%20A%20%E2%80%9Cblob%E2%80%9D%20is%20used,author%2C%20committer%2C%20commit-data%2C%20and%20log-%20messages.%20More%20items)
+[Learn more about git internals](https://medium.com/mindorks/what-is-git-object-model-6009c271ca66#:~:text=Git%20Object%20Store%201%20A%20%E2%80%9Cblob%E2%80%9D%20is%20used,author%2C%20committer%2C%20commit-data%2C%20and%20log-%20messages.%20More%20items)
 
 
 

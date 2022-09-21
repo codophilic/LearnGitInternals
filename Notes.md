@@ -16,9 +16,9 @@
 
 **1. BLOB (Binary Large Objects)**: A *BLOB* is used to store file data- it is generally a file.
 
-**2. TREE**:A *TREE* is basically like a directory- it references a bunch of other trees and blobs (i.e. files and sub-directories).
+**2. TREE**: A *TREE* is basically like a directory- it references a bunch of other trees and blobs (i.e. files and sub-directories).
 
-**3. COMMIT**:A *COMMIT* object holds metadata for each change introduced in the repository, including the author, committer, commit-data, and log- messages.
+**3. COMMIT**: A *COMMIT* object holds metadata for each change introduced in the repository, including the author, committer, commit-data, and log- messages.
 
 **4. TAGS**: A *TAG* object assigns an arbitrary human-readable name to a specific object usually a commit.
 

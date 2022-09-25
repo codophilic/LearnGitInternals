@@ -31,7 +31,7 @@
 - The index contains all the information necessary to generate a single (uniquely determined) tree object.
 For example, running git commit generates this tree object from the index, stores it in the object database, and uses it as the tree object associated with the new commit. [Learn more about it](https://stackoverflow.com/questions/4084921/what-does-the-git-index-contain-exactly)
 
-![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/8.PNG)
+![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/8.png)
 
 - Now we commit our changes. We get two objects.
 

@@ -34,12 +34,12 @@ https://stackoverflow.com/questions/4084921/what-does-the-git-index-contain-exac
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/8.PNG)
 
--Now we commit our changes. We get two objects.
+- Now we commit our changes. We get two objects.
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/9.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/10.PNG)
 
--We add a new file *bar.txt* and modified *foo.txt*. Adding them in staging area. The staging area has two BLOB objects of each file which will be use for new TREE object creation. That new TREE object will be refering these two BLOB objects. 
+- We add a new file *bar.txt* and modified *foo.txt*. Adding them in staging area. The staging area has two BLOB objects of each file which will be use for new TREE object creation. That new TREE object will be refering these two BLOB objects. 
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/11.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/12.PNG)
@@ -81,4 +81,4 @@ https://stackoverflow.com/questions/4084921/what-does-the-git-index-contain-exac
 
 ### Internal Mappings
 
-![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/Internals.JPEG)
+![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/Internals.jpeg)

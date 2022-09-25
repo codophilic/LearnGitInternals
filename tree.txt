@@ -1,0 +1,8 @@
+(Added file1 in folder1)
+commit1:8b6d499 -> tree:0966b678 -> tree:d42488d (folder1)-> Blob:e264659
+(Updated file1 in folder1)
+commit2:dce6818 -> tree:5753abe92->tree:c887b9314f (folder1) -> Blob:8c5f700d76
+(Added file2 in folder1)                                     /  /
+commit3:f822e87-> tree:f9520af0a9b-> tree:02ff9151 (folder1) ->| Blob: b973e63
+(Updated file2 in folder1)                                    /
+commit4:093192e-> tree: c8492859c -> tree: c57c8a4 (folder1) -> Blob: 43a8c3fd 

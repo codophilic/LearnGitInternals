@@ -58,6 +58,13 @@ https://stackoverflow.com/questions/4084921/what-does-the-git-index-contain-exac
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/16.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/17.PNG)
 
+
+
+### Internal Mappings
+
+![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/Internals.jpeg)
+
+
 ## Tracking multiple file having same content.
 
 - So here we create 100 files which has same content using for loop command.
@@ -79,6 +86,6 @@ https://stackoverflow.com/questions/4084921/what-does-the-git-index-contain-exac
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/23.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/24.PNG)
 
-### Internal Mappings
+## Wondering why TREE are point BLOBS only and not another TREE ?
 
-![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/Internals.jpeg)
+![See here](https://stackoverflow.com/questions/60247622/does-tree-object-type-in-git-internals-point-to-the-blob-only-or-to-trees-as-wel)

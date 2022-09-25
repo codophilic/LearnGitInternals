@@ -86,6 +86,6 @@ https://stackoverflow.com/questions/4084921/what-does-the-git-index-contain-exac
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/23.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes2/24.PNG)
 
-## Wondering why TREE are point BLOBS only and not another TREE ?
+## Wondering why TREE objects are pointing BLOBS objects only and not another TREE ?
 
-![See here](https://stackoverflow.com/questions/60247622/does-tree-object-type-in-git-internals-point-to-the-blob-only-or-to-trees-as-wel)
+[See here](https://stackoverflow.com/questions/60247622/does-tree-object-type-in-git-internals-point-to-the-blob-only-or-to-trees-as-wel)

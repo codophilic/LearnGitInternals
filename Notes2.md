@@ -88,3 +88,5 @@ For example, running git commit generates this tree object from the index, store
 ## Wondering why TREE objects are pointing BLOBS objects only and not another TREE ?
 
 [See here](https://stackoverflow.com/questions/60247622/does-tree-object-type-in-git-internals-point-to-the-blob-only-or-to-trees-as-wel)
+
+[Check in Notes3](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/1.PNG)

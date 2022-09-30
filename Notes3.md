@@ -1,30 +1,48 @@
 # Tree pointing Sub-trees
 
-- Create a new git repository name *Internals*  (1)
+- Create a new git repository name *Internals* 
 
-- Adding some sub folders (2)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/1.PNG)
 
-- Created A1 file under folder/A1 directory and adding it under staging area. (3)
+- Adding some sub folders.
 
-- After committing 4 more git objects are created. (Number of Tree == Number of nested directories ) (4,5)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/2.PNG)
 
-- Similarly created an A2.txt file under directory folder2/A2/ and committed the changes (So total 5 more objects have been added) (6,7)
+- Created **A1.txt** under *folder/A1* directory and add that it under staging area. We get one BLOB object.
 
-- Now we have updated A1.txt and committed it (8) and so total we have 15 objects (9) (smart layer compression one object into one folder)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/3.PNG)
 
-- Now we have updated A2.txt file under directory folder2/A2/ and committed the changes ( So total objects 20) (10)
+- After committing the files, 4 more git objects are created. 1 is commit , 1 is Blob , 3 are trees (Number of Tree == Number of nested directories + 1 Current directory)
 
-- Now creating a new file under folder1/B1 with B1.txt with Updating both A2.txt and A1.txt file in one commit. (11,12)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/4.PNG)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/5.PNG)
 
-- Now making A1.txt file changes as A1 A1 (previous version) and committing changes (13)
+- Similarly created an **A2.txt** file under directory *folder2/A2/* and committed the changes (So total 5 more objects have been added).
+
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/6.PNG)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/7.PNG)
+
+- Now we have updated **A1.txt** and committed it. So total we have 15 objects (smart layer compression one object into one folder rather creating new folder object *a8.... object folder*)
+
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/8.PNG)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/9.PNG)
+
+- Now we have updated **A2.txt** file under directory *folder2/A2/* and committed the changes ( So total objects 20) 
+
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/10.PNG)
+
+- Now creating a new file under *folder1/B1* with **B1.txt** with Updating both **A2.txt** and **A1.txt** file in a single commit. 
+
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/11.PNG)
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/12.PNG)
+
+- Now making **A1.txt** file changed as `A1 A1 ` (previous version) and committing changes. So instead of creating the new blob object of it, git knows there is a same blob of data thats why git directly pointed the tree which consits of previous data. Apart of it, the it also point the latest blob of the other files **B1.txt** and **A2.txt**. This how's git internally works point the content instead of finding the changes.
+
+[](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/13.PNG)
 
 - Tracking and pointing is done based on file content and trees are basically  sub-directories
 
-https://lucid.app/lucidchart/20140c18-cc6a-440f-8070-063658b7cba1/edit?invitationId=inv_f476ae79-9a67-4bbe-b6b4-76e8dc646be6&page=0_0#
+ Meeti meet123456@gmail.com, meet1234
 
- Meeti meet123456@gmail.com
-
- Meeti
-meet123456@gmail.com
 
 

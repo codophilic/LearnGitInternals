@@ -40,7 +40,7 @@
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/13.jpeg)
 
-- Tracking and pointing is done based on file content and trees are basically  sub-directories
+- Tracking and pointing is done based on file content and trees are basically sub-directories level tracking
 
  Meeti meet123456@gmail.com, meet1234
 

@@ -1,6 +1,6 @@
 # Tree pointing Sub-trees
 
-- Create a new git repository name *Internals* 
+- Create a new git repository name ***Internals*** 
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/1.PNG)
 
@@ -8,7 +8,7 @@
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/2.PNG)
 
-- Created **A1.txt** under *folder/A1* directory and add that it under staging area. We get one BLOB object.
+- Created **A1.txt** under ***folder/A1*** directory and add that it under staging area. We get one BLOB object.
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/3.PNG)
 
@@ -17,21 +17,21 @@
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/4.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/5.PNG)
 
-- Similarly created an **A2.txt** file under directory *folder2/A2/* and committed the changes (So total 5 more objects have been added).
+- Similarly created an **A2.txt** file under directory ***folder2/A2/*** and committed the changes (So total 5 more objects have been added).
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/6.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/7.PNG)
 
-- Now we have updated **A1.txt** and committed it. So total we have 15 objects (smart layer compression one object into one folder rather creating new folder object *a8.... object folder*)
+- Now we have updated **A1.txt** and committed it. So total we have 15 objects (smart layer compression one object into one folder rather creating new folder object ***a8.... object folder***)
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/8.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/9.PNG)
 
-- Now we have updated **A2.txt** file under directory *folder2/A2/* and committed the changes ( So total objects 20) 
+- Now we have updated **A2.txt** file under directory ***folder2/A2/*** and committed the changes ( So total objects 20) 
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/10.PNG)
 
-- Now creating a new file under *folder1/B1* with **B1.txt** with Updating both **A2.txt** and **A1.txt** file in a single commit. 
+- Now creating a new file under ***folder1/B1*** with **B1.txt** with Updating both **A2.txt** and **A1.txt** file in a single commit. 
 
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/11.PNG)
 ![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/12.PNG)

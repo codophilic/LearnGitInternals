@@ -38,7 +38,7 @@
 
 - Now making **A1.txt** file changed as `A1 A1 ` (previous version) and committing changes. So instead of creating the new blob object of it, git knows there is a same blob of data thats why git directly pointed the tree which consits of previous data. Apart of it, the it also point the latest blob of the other files **B1.txt** and **A2.txt**. This how's git internally works point the content instead of finding the changes.
 
-![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/13.PNG)
+![](https://github.com/codophilic/LearnGitInternals/blob/main/Notes3/13.jpeg)
 
 - Tracking and pointing is done based on file content and trees are basically  sub-directories
 
